@@ -1,8 +1,19 @@
 # Core Libraries
-openai  # For openai compatible LLMs
-# langchain
-# langchain-google-genai # Or similar for Gemini integration
-python-dotenv # For managing environment variables
+litellm
+python-dotenv>=1.0.0
+PyYAML==6.0
+tiktoken
+openai
+anthropic
+google-generativeai
+gradio
+docker
+Jinja2
+pydantic
+watchdog
+termcolor
+requests
+typing-extensions
 
 # LLM Models & Frameworks
 # transformers
@@ -18,10 +29,9 @@ python-dotenv # For managing environment variables
 # stable-baselines3
 
 # Evaluation & Sandboxing
-# pytest
+pytest
 # hypothesis
 # e2b-sdk  # For E2B sandbox
-# docker
 
 # Data Storage
 # psycopg2-binary  # For PostgreSQL
@@ -31,7 +41,8 @@ python-dotenv # For managing environment variables
 # Utilities
 # jinja2
 
-# API/Web
-gradio>=3.40.0  # Web interface for OpenAlpha_Evolve
+# API/Web (Optional, if exposing functionality)
 # fastapi
-# uvicorn 
+# uvicorn
+
+# For potential future use or specific agent needs (example)
