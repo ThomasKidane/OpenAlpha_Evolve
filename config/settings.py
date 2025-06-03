@@ -7,13 +7,17 @@ load_dotenv()
 FLASH_API_KEY = os.getenv("FLASH_API_KEY")
 FLASH_BASE_URL = os.getenv("FLASH_BASE_URL", None)
 FLASH_MODEL = os.getenv("FLASH_MODEL")
+# create a debug here
+# print(FLASH_API_KEY)
+# print(FLASH_BASE_URL)
+# print(FLASH_MODEL)  
+# import pdb; pdb.set_trace()
 
-# PRO_API_KEY = os.getenv("PRO_API_KEY")
-# PRO_BASE_URL = os.getenv("PRO_BASE_URL", None)
-# PRO_MODEL = os.getenv("PRO_MODEL")
+PRO_API_KEY = os.getenv("PRO_API_KEY")
+PRO_BASE_URL = os.getenv("PRO_BASE_URL", None)
+PRO_MODEL = os.getenv("PRO_MODEL")
 
 EVALUATION_API_KEY = os.getenv("EVALUATION_API_KEY")
-EVALUATION_BASE_URL = os.getenv("EVALUATION_BASE_URL", None)
 EVALUATION_MODEL = os.getenv("EVALUATION_MODEL")
 
 # LiteLLM Configuration

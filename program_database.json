@@ -309,5 +309,65 @@
         "status": "failed_evaluation",
         "created_at": 1748260463.5454998,
         "task_id": null
+    },
+    "fibonacci_task_gen0_prog0": {
+        "id": "fibonacci_task_gen0_prog0",
+        "code": "def fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b",
+        "fitness_scores": {
+            "correctness": 0.0,
+            "runtime_ms": Infinity,
+            "passed_tests": 0.0,
+            "total_tests": 0.0,
+            "highest_level_passed": -1.0
+        },
+        "generation": 0,
+        "parent_id": null,
+        "island_id": 0,
+        "errors": [
+            "Execution Error at Level 0 ('default_level'): Execution failed with exit code 125. Docker error: 'docker: Cannot connect to the Docker daemon at unix:///Users/thomaskidane/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.'"
+        ],
+        "status": "failed_evaluation",
+        "created_at": 1748489121.982651,
+        "task_id": null
+    },
+    "fibonacci_task_gen0_prog1": {
+        "id": "fibonacci_task_gen0_prog1",
+        "code": "def fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        a, b = 0, 1\n        for _ in range(2, n + 1):\n            a, b = b, a + b\n        return b",
+        "fitness_scores": {
+            "correctness": 0.0,
+            "runtime_ms": Infinity,
+            "passed_tests": 0.0,
+            "total_tests": 0.0,
+            "highest_level_passed": -1.0
+        },
+        "generation": 0,
+        "parent_id": null,
+        "island_id": 1,
+        "errors": [
+            "Execution Error at Level 0 ('default_level'): Execution failed with exit code 125. Docker error: 'docker: Cannot connect to the Docker daemon at unix:///Users/thomaskidane/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.'"
+        ],
+        "status": "failed_evaluation",
+        "created_at": 1748489121.983941,
+        "task_id": null
+    },
+    "fibonacci_task_gen0_prog2": {
+        "id": "fibonacci_task_gen0_prog2",
+        "code": "def fibonacci(n):\n    if n <= 1:\n        return n\n    else:\n        a = 0\n        b = 1\n        for _ in range(2, n + 1):\n            c = a + b\n            a = b\n            b = c\n        return b",
+        "fitness_scores": {
+            "correctness": 0.0,
+            "runtime_ms": Infinity,
+            "passed_tests": 0.0,
+            "total_tests": 0.0,
+            "highest_level_passed": -1.0
+        },
+        "generation": 0,
+        "parent_id": null,
+        "island_id": 2,
+        "errors": [
+            "Execution Error at Level 0 ('default_level'): Execution failed with exit code 125. Docker error: 'docker: Cannot connect to the Docker daemon at unix:///Users/thomaskidane/.docker/run/docker.sock. Is the docker daemon running?.\nSee 'docker run --help'.'"
+        ],
+        "status": "failed_evaluation",
+        "created_at": 1748489121.9844391,
+        "task_id": null
     }
 }
